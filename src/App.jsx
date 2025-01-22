@@ -7,8 +7,9 @@ function App() {
 
   return (
     
-  <div className='w-full flex flex-col place-items-center'>
-    <div className='w- h-40 rounded-full bg-orange-400 fixed top-10 right-1/3'></div>
+  <div className='w-full flex flex-col place-items-center relative'>
+    <div className='w-40 h-40 rounded-full bg-orange-400 absolute top-4 right-[460px]'></div>
+    <div className='w-40 h-40 rounded-full bg-yellow-400 absolute top-56  left-[440px]'></div>
     <Form></Form>
     <Message></Message>
   </div>
